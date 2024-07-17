@@ -1,0 +1,149 @@
+*,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1440;
+    background-color: rgba(239, 241, 237, 1);
+}
+
+header {
+    width: 1440px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(239, 241, 237, 1);
+}
+
+.navigasi {
+    Width: 879px;
+    Height: 61px;
+    Top: 16px;
+    Left: 289px;
+    Gap: 64px;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0px 289px 16px 270px;
+}
+
+.navigasi a {
+    margin-top: 16px;
+    font-family: Inter;
+    font-size: 24px;
+    line-height: 29.05px;
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    width: 235px;
+    height: 61px;
+    border-radius: 8px;
+    background: rgba(80, 90, 91, 1);
+    color: white;
+    border: none;
+    margin-top: 16px;
+}
+
+.hero {
+    background-image: url("asset/gambar1.png");
+    width: 1440px;
+    height: 1024px;
+
+}
+
+.texthero {
+    display: block;
+    float: right;
+    margin: 253px 104px 0 0;
+}
+
+.texthero1 {
+    width: 507px;
+    height: 313.22px;
+    margin-bottom: 32px;
+}
+
+.texthero2 {
+    width: 496px;
+    height: 104.41px;
+}
+
+.texthero1 h1 {
+    font-size: 120px;
+    font-family: Playfair Display;
+    font-weight: 900;
+    color: rgba(239, 241, 237, 1);
+    
+}
+
+.texthero2 p {
+    font-size: 40px;
+    font-family: Inter;
+    font-weight: 400;
+    color: rgba(239, 241, 237, 1);
+    line-height: 52px;
+}
+
+/* storya */
+.storya {
+    width: 1071px;
+    height: 739px;
+    margin-top: 156px;
+    margin-left: 135px;
+    
+    display: flex;
+}
+.imagestory {
+    width: 476px;
+    float: left;
+    margin-bottom: 120px;
+}
+.textstory {
+    width: 476px;
+    height: 611px;
+    float: right;
+    margin-top: 64px;
+    margin-left: 119px;
+}
+.textstory p{
+    font-family: inter;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: rgba(80, 90, 91, 1);
+}
+.textstory h3{
+    font-size: 56px;
+    font-family: Playfair Display;
+    margin-bottom: 32px;
+    color: rgba(80, 90, 91, 1);
+}
+.textstory2 p{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(80, 90, 91, 1);
+}
+.ottika{
+    width: 1440px;
+    height: 979px;
+    margin-top: 120px;
+    background-color: rgba(80, 90, 91, 1);
+}
+.ottikaimgandtext{
+    width: 1170px;
+    height: 553px;
+    border: 2px solid black;
+    display: flex;
+    margin-top: 80px;
+    margin-left: 135px;
+}
+.ottikatext{
+    width: ;
+    
+}
