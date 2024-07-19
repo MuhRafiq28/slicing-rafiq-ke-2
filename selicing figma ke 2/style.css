@@ -24,7 +24,6 @@ header {
     Top: 16px;
     Left: 289px;
     Gap: 64px;
-
     justify-content: center;
     align-items: center;
     display: flex;
@@ -48,19 +47,23 @@ button {
     color: white;
     border: none;
     margin-top: 16px;
+    font-size: 24px;
+    font-weight: 500;
 }
 
 .hero {
-    background-image: url("asset/gambar1.png");
+    background-image: url("asset/img_hero.svg");
     width: 1440px;
     height: 1024px;
     background-color: transparent;
+    padding-top: 260.69px;
+    padding-right: 104px;
 }
 
 .texthero {
     display: block;
     float: right;
-    margin: 253px 104px 0 0;
+   
     background-color: transparent;
 }
 
@@ -136,7 +139,7 @@ button {
     background-color: transparent;
 }
 
-.textstory2 p {
+.textstory2 h4{
     font-family: Inter;
     font-size: 24px;
     font-weight: 400;
@@ -167,7 +170,7 @@ button {
     background-color: transparent;
 }
 
-.ottikatext p {
+.ottikatext h4 {
     font-family: Inter;
     font-size: 24px;
     font-weight: 400;
@@ -197,7 +200,7 @@ button {
 }
 
 
-.otikatextp p {
+.otikatextp h2 {
     font-size: 18px;
     font-weight: 700;
     font-family: inter;
@@ -258,7 +261,7 @@ button {
     background-color: transparent;
 }
 
-.visitatextp1 p {
+.visitatextp1 h2 {
     font-size: 18px;
     font-family: inter;
     font-weight: 700;
@@ -307,7 +310,7 @@ button {
     background-color: transparent;
 }
 
-.car1 h3 {
+.car1 h2 {
     font-size: 24px;
     font-family: inter;
     font-weight: 700;
@@ -315,7 +318,7 @@ button {
     background-color: transparent;
 }
 
-.car1 p {
+.car1 h5 {
     font-size: 16px;
     font-family: inter;
     font-weight: 400;
@@ -332,7 +335,7 @@ button {
     background-color: transparent;
 }
 
-.car2 h3 {
+.car2 h2 {
     font-size: 17px;
     font-family: inter;
     font-weight: 700;
@@ -340,7 +343,7 @@ button {
     background-color: transparent;
 }
 
-.car2 p {
+.car2 h5 {
     font-size: 16px;
     font-family: inter;
     font-weight: 400;
@@ -356,14 +359,14 @@ button {
     background-color: transparent;
 }
 
-.car3 h3 {
+.car3 h2 {
     font-size: 17px;
     font-family: inter;
     font-weight: 700;
     background-color: transparent;
 }
 
-.car3 p {
+.car3 h5 {
     font-size: 16px;
     font-family: inter;
     font-weight: 400;
@@ -376,7 +379,7 @@ button {
     background-color: transparent;
 }
 
-.byfooter p {
+.byfooter h4 {
     font-size: 14px;
     font-family: inter;
     font-weight: 400;
