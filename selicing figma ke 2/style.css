@@ -4,22 +4,33 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: rgba(239, 241, 237, 1);
+    display: flex;
+    justify-content: center;
 }
 
 .container {
-    width: 1440;
+    width: 1440px;
     background-color: rgba(239, 241, 237, 1);
 }
 
+.containerS {
+display: block;
+align-items: center;
+}
+
 header {
+    display: block;
     width: 1440px;
     justify-content: center;
     align-items: center;
     background-color: rgba(239, 241, 237, 1);
+    width: 1440px;
 }
 
 .navigasi {
-    Width: 879px;
+    display: block;
+    max-width: 879px;
+    width: 100%;
     Height: 61px;
     Top: 16px;
     Left: 289px;
@@ -37,9 +48,17 @@ header {
     line-height: 29.05px;
     text-decoration: none;
     color: black;
+    background-color: transparent;
+    grid-template-columns: repeat(auto-fit, minimax(100px, 1fr));
+}
+
+.navigasi a:hover{
+    color: rgba(211, 96, 96, 1);
+    text-decoration: underline;
 }
 
 button {
+    display: block;
     width: 235px;
     height: 61px;
     border-radius: 8px;
@@ -51,7 +70,12 @@ button {
     font-weight: 500;
 }
 
+button:hover{
+    color: aqua;
+}
+
 .hero {
+    display: block;
     background-image: url("asset/img_hero.svg");
     width: 1440px;
     height: 1024px;
@@ -63,7 +87,6 @@ button {
 .texthero {
     display: block;
     float: right;
-   
     background-color: transparent;
 }
 
@@ -99,6 +122,7 @@ button {
 
 /* storya */
 .storya {
+    display: block;
     width: 1071px;
     height: 739px;
     margin-top: 156px;
@@ -114,6 +138,7 @@ button {
 }
 
 .textstory {
+    display: block;
     width: 476px;
     height: 611px;
     float: right;
@@ -129,6 +154,7 @@ button {
     margin-bottom: 16px;
     color: rgba(80, 90, 91, 1);
     background-color: transparent;
+    display: block;
 }
 
 .textstory h3 {
@@ -139,14 +165,24 @@ button {
     background-color: transparent;
 }
 
-.textstory2 h4{
+.textstory2 h4 {
     font-family: Inter;
     font-size: 24px;
     font-weight: 400;
     color: rgba(80, 90, 91, 1);
 }
 
+/* otiika */
+section{
+    display: block;
+}
+
+section .otiikatextp{
+    display: block;
+}
+
 .ottika {
+    display: block;
     width: 1440px;
     height: 979px;
     margin-top: 120px;
@@ -163,6 +199,7 @@ button {
 }
 
 .ottikatext {
+    display: block;
     width: 476px;
     height: 425px;
     color: rgba(232, 235, 228, 1);
@@ -171,6 +208,7 @@ button {
 }
 
 .ottikatext h4 {
+    display: block;
     font-family: Inter;
     font-size: 24px;
     font-weight: 400;
@@ -179,6 +217,7 @@ button {
 }
 
 .ottikatext h3 {
+    display: block;
     font-family: Playfair Display;
     font-size: 56px;
     font-weight: 900;
@@ -190,26 +229,26 @@ button {
     margin-left: 119px;
     height: 575px;
     height: 553px;
-    background-color: rgba(239, 241, 237, 1);
     border-radius: 12px;
     background-color: transparent;
 }
- 
-.ottikaimg img{
+
+.ottikaimg img {
     background-color: transparent;
 }
 
 
 .otikatextp h2 {
+    display: block;
     font-size: 18px;
     font-weight: 700;
     font-family: inter;
     margin-bottom: 16px;
-    line-height: 23.4px;
     background-color: rgba(80, 90, 91, 1);
 }
 
 .brand {
+    display: block;
     background-color: transparent;
     width: 838px;
     height: 146px;
@@ -230,21 +269,28 @@ button {
 }
 
 .loghi {
+    display: block;
     display: flex;
     justify-content: space-between;
     width: 838px;
     background-color: transparent;
 }
 
-.loghi img{
+.loghi img {
     background-color: transparent;
 }
 
+/* visita*/
 .visita {
+    display: block;
     width: 1170px;
     height: 915px;
     margin: 120px 135px 0 135px;
     background-color: transparent;
+}
+
+section .visitatext{
+    display: flex;
 }
 
 .visitaimg {
@@ -261,7 +307,12 @@ button {
     background-color: transparent;
 }
 
+.visitatextp1{
+    display: block;
+}
+
 .visitatextp1 h2 {
+    display: block;
     font-size: 18px;
     font-family: inter;
     font-weight: 700;
@@ -270,6 +321,7 @@ button {
 }
 
 .visitatextp2 p {
+    display: block;
     font-size: 24px;
     font-family: inter;
     font-weight: 400;
@@ -279,6 +331,7 @@ button {
 }
 
 .visitatext h3 {
+    display: block;
     font-size: 56px;
     font-family: Playfair Display;
     font-weight: 900;
@@ -289,6 +342,7 @@ button {
 }
 
 .container {
+    display: block;
     display: flex;
     background-color: transparent;
     height: 233px;
@@ -296,13 +350,14 @@ button {
 }
 
 .footer {
+    display: block;
     width: 1440px;
     height: 370px;
     background-color: rgba(80, 90, 91, 1);
-
 }
 
 .car1 {
+    display: block;
     width: 278px;
     height: 95px;
     margin: 80px 221px 146px 119px;
@@ -311,6 +366,7 @@ button {
 }
 
 .car1 h2 {
+    display: block;
     font-size: 24px;
     font-family: inter;
     font-weight: 700;
@@ -319,6 +375,7 @@ button {
 }
 
 .car1 h5 {
+    display: block;
     font-size: 16px;
     font-family: inter;
     font-weight: 400;
@@ -327,6 +384,7 @@ button {
 }
 
 .car2 {
+    display: block;
     width: 277px;
     height: 136px;
     color: rgba(232, 235, 228, 1);
@@ -336,6 +394,7 @@ button {
 }
 
 .car2 h2 {
+    display: block;
     font-size: 17px;
     font-family: inter;
     font-weight: 700;
@@ -344,6 +403,7 @@ button {
 }
 
 .car2 h5 {
+    display: block;
     font-size: 16px;
     font-family: inter;
     font-weight: 400;
@@ -351,6 +411,7 @@ button {
 }
 
 .car3 {
+    display: block;
     width: 277px;
     height: 95px;
     color: rgba(232, 235, 228, 1);
@@ -360,6 +421,7 @@ button {
 }
 
 .car3 h2 {
+    display: block;
     font-size: 17px;
     font-family: inter;
     font-weight: 700;
@@ -367,6 +429,7 @@ button {
 }
 
 .car3 h5 {
+    display: block;
     font-size: 16px;
     font-family: inter;
     font-weight: 400;
@@ -374,14 +437,30 @@ button {
 }
 
 .byfooter {
+    display: block;
     margin: 76px 419px 40px 419px;
     color: rgba(232, 235, 228, 1);
     background-color: transparent;
 }
 
 .byfooter h4 {
+    display: block;
     font-size: 14px;
     font-family: inter;
     font-weight: 400;
     background-color: transparent;
+}
+
+.scrol{
+    display: flex;
+    margin-bottom: 44px;
+    margin-top: 50px;
+}
+
+
+.halaman2{
+    width: 20px;
+    height: 2px;
+    background-color: rgba(217, 217, 217, 1);
+    margin-left: 515px;
 }
